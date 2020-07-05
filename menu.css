@@ -1,0 +1,368 @@
+body{
+
+
+    height:92%;
+    width:98%;
+    background-color:#f1f5f7;
+}
+
+#headder{
+    z-index: 1;
+}
+
+#nav1{
+    width: 100%;
+    z-index: 1;
+    position:absolute;
+}
+ ul{
+    border:1px solid black;
+    list-style-type:none;
+    margin:0%;
+    padding:0%;
+    background-color:rgb(160, 63, 96);
+    width:100%;
+    position:fixed;
+    height:10%;
+    top:0%;
+    right:-29%;
+    display:inline-block;
+
+
+		 }
+         li a{
+
+		      text-decoration:none;
+			  display:inline;
+			  padding:9px;
+			  color:#f1f5f7;
+			  display:block;
+              font-size:20px;
+              padding:20px;
+              font-family:Lucida Calligraphy;
+
+
+		 }
+		 li{
+			  text-align:center;
+			  float:left;
+
+		 }
+
+		 li a:hover{
+
+              color:#ffd864;
+			  background-color:rgb(60, 18, 32);
+
+		 }
+         #logo{
+
+            width:30%;
+            height:10%;
+            margin-left:-1%;
+            top:0%;
+            position:fixed;
+
+
+        }
+
+        #img1 img{
+            width:123%;
+			    height:26%;
+                margin-top:5.5%;
+                margin-left:-1%;
+			    border-radius:10px;
+     }
+     #autoShow img{
+            width: 60%;
+            height: 500px;
+            margin-left: 300px;
+            -moz-transition: width 2s, height 2s;
+            -webkit-transition: width 2s, height 2s;
+            transition: width 2s, height 2s;
+     }
+
+     #autoShow img:hover{
+            width: 65%;
+            height: 550px;
+     }
+
+     #menuHeader{
+         clear: both;
+         text-align: center;
+         font-size:2em;
+     }
+
+ /* The body After Slide Show */
+ #menuBody{
+     width: 98%;
+     display: flexbox;
+     box-sizing: border-box;
+     font-size:25px;
+     margin-top:6%;
+     font-family:Cooper Black;
+     color:rgb(181, 51, 96);
+   z-index: 1;
+ }
+
+ #menuBody section{
+    width: 100%;
+    display: flexbox;
+    box-sizing: border-box;
+
+
+}
+
+
+ #menuBody section figure{
+     position: relative;
+     width: 23%;
+     height: 350px;
+     display: flexbox;
+     float: left;
+     margin:1%;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+#price{
+    font-family:Cooper Black;
+    color: red;
+}
+ #menuBody section figure img{
+     width: 90%;
+     height: 250px;
+     margin-top:-6%;
+     border-radius: 20px;
+ }
+#menuBody section figure img:hover{
+     width: 95%;
+     height: 280px;
+     border: 1.5px solid #7ad8df;
+    transform:  skew(5deg);
+
+ }
+ #menuBody section figure figcaption{
+     font-size: 25px;
+     font-family:Cooper Black;
+     color:rgb(105, 48, 68);
+     font-weight: bold;
+ }
+
+
+
+ #btOrder{
+     width: 100%;
+     height: auto;
+     text-align: center;
+     box-sizing: border-box;
+ }
+
+#btOrder button{
+     clear: both;
+     width: 35%;
+     height: 7%;
+     margin-bottom: 2%;
+     margin-top: -1.5%;
+     margin-left:-1%;
+     font-size: 20px ;
+     font-family:Cooper Black;
+     font-weight: bold;
+     background-color: #7ad8df;
+     word-spacing: 11%;
+     letter-spacing: 11%;
+     border-radius: 22px ;
+ }
+
+ #btOrder button:hover{
+    width: 35%;
+    height: 7%;
+    margin-bottom:2%;
+    font-size:25px;
+    font-family:Cooper Black;
+    font-weight: bold;
+    word-spacing: 11%;
+    letter-spacing: 11%;
+    border-radius:22px;
+    background-color: rgb(127, 168, 243);
+    cursor: pointer;
+}
+#delivery{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    position: relative;
+    display: flexbox;
+    box-sizing: border-box;
+}
+#btOrder #delivery{
+	display: inline-block;
+}
+#delivery article {
+    margin: 2%;
+    padding:0%;
+    margin-right: 0%;
+}
+
+legend{
+    font-size: 200%;
+    font-weight: bolder;
+}
+#lableName {
+
+    margin-left:-36%;
+    margin-top:7%;
+    position: absolute;
+    font-family:Cooper Black;
+    color:red;
+    font-size: 15px;
+}
+#name{
+
+     width:2%;
+     height:8%;
+
+}
+#lablePhone{
+
+    margin-left:-36%;
+    margin-top: 15%;
+    position: absolute;
+    font-family:Cooper Black;
+    color:red;
+    font-size: 15px;
+}
+
+#namePhone{
+    width:18%;
+    clear: both;
+    display: flexbox;
+    float: left;
+    box-sizing: border-box;
+}
+
+#namePhone input{
+    width: 200%;
+    padding: 10%;
+    margin: 11%;
+    margin-left:30%;
+    border-radius: 10px;
+    float: left;
+}
+
+#namePhone input:hover{
+    border: 2px solid rgb(143, 233, 233);
+
+}
+#mailAdress{
+
+     margin-top:1%
+}
+
+
+#lableEmail{
+
+    margin-left: 40%;
+    margin-top: 7%;
+    position: absolute;
+    font-family:Cooper Black;
+    color:red;
+    font-size: 15px;
+}
+
+#lableAddres{
+
+    margin-left: 40%;
+    margin-top: 7%;
+    position: absolute;
+   font-family:Cooper Black;
+    color:red;
+    font-size: 15px;
+}
+#mailAdress input{
+    width: 37%;
+    height:8.5%;
+    padding: 1.7%;
+    margin: 2%;
+    margin-left:30%;
+    border-radius: 10px;
+}
+#mailAdress input:hover{
+    border: 2px solid rgb(143, 233, 233);
+}
+
+
+    #footer {
+
+                width:102.2%;
+                height:34%;
+                margin-top:8%;
+                margin-left:-.8%;
+                background-color:rgb(60, 18, 32);
+
+
+          }
+          #conntact{
+                font-size:15px;
+                font-family:Lucida Calligraphy;
+                padding-top:.1%;
+                padding-left:40.5%;
+                color:#f1f5f7;
+
+
+
+          }
+          #footer #facebook{
+                width:2.5%;
+                height:4.5%;
+                margin-left:42%;
+                margin-top:-10px;
+                border-radius:10px;
+                position:absolute;
+
+          }
+           #footer #twitter{
+                width:2.5%;
+                height:4.5%;
+                margin-top:-.5%;
+                margin-left:45.9%;
+                border-radius:10px;
+                position:absolute;
+
+
+          }
+           #footer #google{
+               width:2.5%;
+               height:4.5%;
+               margin-top:-.5%;
+               margin-left:49.6%;
+               border-radius:10px;
+               position:absolute;
+
+
+          }
+          #footer #instagram{
+              width:2.5%;
+              height:4.5%;
+              margin-top:-.5%;
+              margin-left:53.5%;
+              border-radius:10px;
+              position:absolute;
+
+
+          }
+
+          #footer #telNumber{
+              margin-top:2%;
+              margin-left:42%;
+              font-size:15px;
+              font-family:Lucida Calligraphy;
+              color:#f1f5f7;
+
+          }
+          #footer #copyRight{
+              margin-top:1%;
+              padding-left:37%;
+              font-size:15px;
+              font-family:Lucida Calligraphy;
+              color:#f1f5f7;
+          }

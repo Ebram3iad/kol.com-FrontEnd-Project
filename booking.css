@@ -1,0 +1,67 @@
+
+#bookingBody{
+  width: 100%;
+  height: 100%;
+}
+#firstSectionBooking{
+  background-image: url("pic/table.jpg");
+  height: 900px;
+}
+#hFindTable{
+  font-size: 50px;
+  color: rgb(60, 18, 32);
+  text-align: center;
+  font-family: cursive;
+}
+#pBookingTable{
+  font-size: 30px;
+  color: rgb(60, 18, 32);
+  text-align: center;
+  font-family: cursive;
+}
+#bookingForm{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(60, 18, 32);
+}
+#hDetails{
+  color: rgb(60, 18, 32);
+  text-align: center;
+  font-size: 45px;
+  font-family: cursive;
+}
+#bookingBtn{
+  font-size: 70px;
+  font-family: cursive;
+  background-color: rgb(60, 18, 32);
+  color: white;
+  margin-left: 600px;
+}
+.bookingImg{
+  width: 500px;
+  height: 500px;
+}
+#bookingImageDiv{
+  column-count: 3;
+}
+#pImg{
+  font-size: 42px;
+  font-family: cursive;
+  text-align: center;
+  color: rgb(60, 18, 32);
+}
+#h3Capacity{
+  font-size: 42px;
+  text-align: center;
+  color: rgb(60, 18, 32);
+  font-family: cursive;
+}
+#pCapacity{
+  color: rgb(60, 18, 32);
+  font-size: 30px;
+  text-align: center;
+  font-family: cursive;
+}
+.btn:hover{
+  opacity:0.7;
+}

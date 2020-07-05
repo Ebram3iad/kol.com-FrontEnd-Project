@@ -1,0 +1,23 @@
+
+
+Team name: Kol.com
+
+Team Members:
+     - Alzahraa Omar
+     - Nada Rafat
+     - Ebram Farag
+
+Tasks:
+
+Alzahraa :
+      - Booking Page
+      - Location Page
+      - Booking Details Page
+
+
+   Nada :
+      - Home Page
+      - About Page
+
+  Ebram  :
+      - Menu Ppage

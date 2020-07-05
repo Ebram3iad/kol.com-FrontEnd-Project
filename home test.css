@@ -1,0 +1,93 @@
+#head{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 30px;
+}
+#na{
+  text-align: center;
+  background-color: #2a2222;
+}
+nav a{
+  margin: 90px;
+  text-decoration :none;
+  color: red;
+  font-family:monospace;
+  border-width: 15px;
+  font-size: 25px;
+}
+#ih{
+  width:100%;
+
+}
+#par1{
+  font-size: 35px;
+}
+#he2{
+  color: gray;
+  font-size: 50px;
+}
+#par2{
+  font-size: 40px;
+  color: #403434;
+}
+#foot{
+  column-count: 3;
+  text-align: center;
+}
+#sp2 a{
+  text-decoration:none;
+  color: black;
+  font-size: 20px;
+  margin: 70px;
+  padding: 30px;
+
+}
+.im{
+  width:200px;
+  height: 200px;
+}
+#s2{
+  column-count: 4;
+}
+#firstSectionBooking{
+  background-image: url("one.jpg");
+}
+#hFindTable{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+#pBookingTable{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+#bookingForm{
+  text-align: center;
+  font-size: 25px;
+}
+#hDetails{
+  text-align: center;
+  font-size: 45px;
+  font-family: cursive;
+}
+#bookingBtn{
+  font-size: 40px;
+  font-family: cursive;
+  background-color: #2a2222;
+  color: red;
+}
+.bookingImg{
+  width: 500px;
+  height: 500px;
+}
+#bookingImageDiv{
+  column-count: 3;
+}
+#pImg{
+  font-size: 42px;
+  font-family: cursive;
+  text-align: center;
+}

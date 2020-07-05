@@ -1,0 +1,321 @@
+	
+		body{
+			   
+			height:300%;
+            width:81.5%;
+            background-color:#f1f5f7;
+                   
+		}
+		
+
+	   ul{
+        border:1px solid black;
+        list-style-type:none;
+        margin:0%;
+        padding:0%;
+        background-color:rgb(160, 63, 96);
+        width:100%;
+        position:fixed;
+        height:10%;
+        top:0%;
+        right:-29%;
+        display:inline-block;
+		     
+		 
+		 }
+         li a{
+		 
+		      text-decoration:none;
+			  display:inline;
+			  padding:9px;
+			  color:#f1f5f7;
+			  display:block;
+              font-size:20px;
+              padding:20px;
+              font-family:Lucida Calligraphy;
+			  
+		 
+		 }
+		 li{
+			  text-align:center;
+			  float:left;
+
+		 }
+       
+		 li a:hover{
+		 
+              color:#ffd864;
+			  background-color:rgb(60, 18, 32);
+		 
+		 }
+         #logo{
+
+            width:30%;
+            height:10%;
+            margin-left:-1%;
+            top:0%;
+            position:fixed;
+
+
+      }
+         
+         .mySlides {
+              display:none;
+              width:30%;
+              height:28%;
+              border-radius:10px;
+              margin-left:11.5%;
+              margin-top:8%;
+             
+             
+             }
+          #hr{
+
+              margin-left:20%;
+              width:30%;
+               
+          }
+         #buttonLeft{
+
+               margin-top:-25%; 
+               margin-left:11.5%;
+               width:3.5%;
+               height:2.7%;
+               background-color:#cc4774;
+               color:#f1f5f7;
+              
+          }
+          #buttonRight{
+
+               margin-top:-25%; 
+               width:3.5%;
+               height:2.7%;
+               margin-left:108%;
+               background-color:#cc4774;
+               color:#f1f5f7;
+              
+          }
+          #buttonLeft:hover{
+
+                color:#ffd864;
+				background-color:rgb(60, 18, 32);
+          }
+          #buttonRight:hover{
+
+                color:#ffd864;
+				background-color:rgb(60, 18, 32);
+          }
+         #paragraphe1 p{
+
+               width:115%;
+			   height:10%;
+               font-size:25px;
+               font-family:Cooper Black;
+               color:rgb(105, 48, 68);
+               padding-left:1%;
+               margin-left:5%;
+
+           }
+           #hr{
+
+               margin-left:6%;
+               width:110%;
+               margin-top:-6%;
+          }
+           #bestMeal header{
+                
+               font-size:30px;
+               font-family:Cooper Black;
+               color:rgb(181, 51, 96);
+               margin-left:29%;
+                
+                
+          }
+          #favoriteDishes #img1{
+
+              width:35%;
+              height:15%;
+              margin-left:14%;
+              margin-top:2%;
+              -webkit-transition: width  2s , height 2s;
+              border-radius:10px;
+          }
+         #favoriteDishes #img1:hover{
+
+              width:45%;
+              height:20%;
+           }
+
+           #favoriteDishes #img2{
+          
+              width:35%;
+              height:15%;
+              margin-top:-28%;
+              margin-left:72%;
+              -webkit-transition: width  2s , height 2s;
+              border-radius:10px;
+          
+
+           }
+           #favoriteDishes #img2:hover{
+
+              width:45%;
+              height:20%;
+           }
+           #favoriteDishes #img3{
+              width:35%;
+              height:15%;
+              margin-top:3%;
+              margin-left:72%;
+             -webkit-transition: width  2s , height 2s;
+              border-radius:10px;
+            
+           }
+            #favoriteDishes #img3:hover{
+
+              width:45%;
+              height:20%;
+           }
+           #favoriteDishes #img4{
+
+              width:35%;
+              height:15%;
+              margin-top:-27.5%;
+              margin-left:14%;
+              -webkit-transition: width  2s , height 2s;
+              border-radius:10px;
+            
+           }
+             #favoriteDishes #img4:hover{
+
+               width:45%;
+               height:20%;
+           }
+            #favoriteDishes #img5{
+
+              width:35%;
+              height:15%;
+              margin-top:3%;
+              margin-left:43%;
+            -webkit-transition: width  2s , height 2s;
+              border-radius:10px;
+             
+           }
+             #favoriteDishes #img5:hover{
+
+              width:45%;
+              height:20%;
+           }
+            #hr1{
+
+               margin-left:5%;
+               width:112%;
+               margin-top:6%;
+          }
+           #masterCheif h1{
+              font-size:40px;
+              font-family:Cooper Black;
+              color:rgb(181, 51, 96);
+              margin-left:50%;
+
+           }
+            #paragraphe2 p{
+
+               width:60%;
+			   height:10%;
+               font-size:25px;
+               font-family:Cooper Black;
+               color:rgb(105, 48, 68);
+               padding-left:0%;
+               margin-left:5%;
+               float:left;
+               
+         }
+          #cheifHassan img{
+
+                width:46%;
+			    height:17%;
+                margin-top:-20%;
+                margin-left:70%;
+                border-radius:15px;
+                position:absolute:
+			   
+         }
+
+            
+         #footer {
+
+                width:122.7%;
+                height:10%;
+                margin-top:8%;
+                margin-left:-.8%;
+                background-color:rgb(60, 18, 32);
+
+			
+          }
+          #conntact{
+                font-size:15px;
+                font-family:Lucida Calligraphy;
+                padding-top:.1%;
+                padding-left:40.5%;
+                color:#f1f5f7;
+               
+
+
+          }
+          #footer #facebook{
+                width:2.5%;
+                height:4.5%;
+                margin-left:42%;
+                margin-top:-10px;
+                border-radius:10px;
+                position:absolute;
+              
+          }
+           #footer #twitter{
+                width:2.5%;
+                height:4.5%;
+                margin-top:-.5%;
+                margin-left:45.9%;
+                border-radius:10px;
+                position:absolute;
+            
+             
+          }
+           #footer #google{
+               width:2.5%;
+               height:4.5%;
+               margin-top:-.5%;
+               margin-left:49.6%;
+               border-radius:10px;
+               position:absolute;
+             
+             
+          }
+          #footer #instagram{
+              width:2.5%;
+              height:4.5%;
+              margin-top:-.5%;
+              margin-left:53.5%;
+              border-radius:10px;
+              position:absolute;
+              
+
+          }
+
+          #footer #telNumber{
+              margin-top:2%;
+              margin-left:42%;
+              font-size:15px;
+              font-family:Lucida Calligraphy;
+              color:#f1f5f7;
+
+          }
+          #footer #copyRight{
+              margin-top:1%;
+              padding-left:37%;
+              font-size:15px;
+              font-family:Lucida Calligraphy;
+              color:#f1f5f7;
+          }
+		

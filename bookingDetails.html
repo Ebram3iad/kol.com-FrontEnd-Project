@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Your Booking Details</title>
+    <link rel="stylesheet" href="booking.css" type="text/css">
+    <script src="booking.js"></script>
+
+
+    <style>
+      #submitBtn{
+          font-size: 70px;
+          font-family: cursive;
+          background-color: rgb(60, 18, 32);
+          color: white;
+        }
+    </style>
+     <link rel="icon" href="pic\log.PNG">
+
+  </head>
+  <body>
+
+    <header>
+      <h3 id="hDetails">Your Details :</h3>
+      <img style="width:100%" src="pic\d.jpg" alt="dining">
+    </header>
+
+
+    <div id="divForm">
+      <form id="bookingForm" onsubmit="success()">
+
+        <label for="bookingPersonName">Name : </label>
+        <input id="bookingPersonName" type="text" required><br><br>
+
+        <label for="bookingPhone">Phone : </label>
+        <input id="bookingPhone" type="number"><br><br>
+
+        <label for="bookingDate">Date : </label>
+        <input id="bookingDate" type="date" required><br><br>
+
+        <label for="bookingTime">Time :</label>
+        <input id="bookingTime" type="time" required><br><br>
+
+        <label for="bookingPeopleSelect">For : </label>
+        <select id="bookingPeopleSelect">
+          <option>1 Person</option>
+          <option>2 People</option>
+          <option>3 People</option>
+          <option>4 People</option>
+          <option>5 People</option>
+          <option>6 People</option>
+          <option>7 People</option>
+          <option>8 People</option>
+          <option>9 People</option>
+          <option>10 People</option>
+          <option>11 People</option>
+          <option>12 People</option>
+          <option>13 People</option>
+          <option>More than 13 (Party)</option>
+        </select><br><br>
+        <p style="color:red;font-size:20px;" id="invalidMsg"></p>
+
+        <button id="submitBtn" type="submit"  onclick="check()">Submit</button>
+
+      </form>
+    </div>
+
+
+  </body>
+</html>
